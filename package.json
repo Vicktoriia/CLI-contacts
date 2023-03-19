@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node ./index.js",
-    "dev": "nodemon ./index.js",
+    "start": "node index",
+    "dev": "nodemon index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -14,7 +14,14 @@
   },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vicktoriia/CLI-contacts/issues"
+  },
   "devDependencies": {
     "nodemon": "^2.0.21"
-  }
+  },
+  "dependencies": {
+    "yargs": "^17.7.1"
+  },
+  "homepage": "https://github.com/Vicktoriia/CLI-contacts#readme"
 }
